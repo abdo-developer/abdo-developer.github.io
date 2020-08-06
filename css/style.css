@@ -1,0 +1,222 @@
+@font-face {
+    font-family: ar-font;
+    src: url(../fonts/Changa-VariableFont_wght.ttf);
+}
+
+body {
+    direction: rtl;
+    font-family: ar-font;
+}
+
+header {
+    background-image: url(../images/Food~2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+header .brand {
+    padding: 20px 10px;
+    margin: 80px auto 50px;
+    border-bottom: 5px solid #474c55;
+    display: inline-block;
+}
+
+header .page-heading h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1.5em;
+}
+
+header .counter .countdown-amount {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #e67e22;
+    display: block;
+}
+
+header .counter .countdown-period {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+header .counter .countdown-section {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header .counter {
+    margin: 60px auto;
+    padding: 30px;
+}
+
+header .send-notification p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+header .send-notification {
+    font-size: 18px;
+    font-family: ar-font;
+    color: gray;
+    border-width: 2px;
+    border-color: #474c55;
+    border-radius: 0px;
+}
+
+header .send-notification .input-group button, footer .button {
+    border-radius: 0px;
+    padding: .5rem 1.5rem;
+    background-color: gray;
+    margin-right: -5px;
+}
+
+.btn {
+    border-radius: 0px;
+    padding: 5px 15px;
+}
+
+footer button {
+    background-color: #393939;
+}
+
+header .send-notification .input-group button:hover {
+    background-color: black;
+}
+
+form {
+    margin-top: 10px;
+    margin-bottom: -70px;
+}
+
+.form-group {
+    margin-bottom: 70px;
+}
+
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-radius: 0px;
+}
+
+header .send-notification .input-group, footer .input-group {
+    width: 30%;
+    margin: 0 auto;
+}
+
+header .send-notification .input-group .alert, footer .alert {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+section .features h2 {
+    margin-bottom: 50px;
+    font-size: 45px;
+    color: rgb(15, 14, 14);
+    text-align: center;
+}
+
+section .features {
+    padding: 70px 0;
+}
+
+section .features .media {
+    border: 4px solid #fafafa;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+}
+
+section .features .media .media-body h5 {
+    font-size: 25px;
+    color: #555;
+    text-align: center;
+}
+
+section .features .media .media-body p {
+    font-size: 15px;
+    color: #a1a1a1;
+    line-height: 25px;
+    text-align: right;
+}
+
+/*
+section.features div[class*="col-"]:nth-child(even) {
+    text-align: left;
+}
+*/
+
+footer {
+    background-image: url(../images/footer-food.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+footer .top-footer .overlay {
+    background-color: rgba(255, 217, 0, 0.753);
+    padding: 60px 0;
+}
+
+footer .top-footer .overlay h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+footer .contact .overlay {
+    background-color: rgba(22, 22, 22, 0.932);
+    padding: 60px 0 10px;
+    color: white;
+}
+
+footer .contact .overlay h3 {
+    font-size: 30px;
+    margin: 0 auto 30px;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+footer .contact .overlay ul li a {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: white;
+    font-size: 1.2em;
+    margin: 15px;
+}
+
+footer .contact .overlay ul {
+    margin: 0 5px;
+}
+
+footer .contact .overlay ul li a:hover {
+    background-color: #f1c40f;
+}
+
+footer .contact .overlay hr {
+    border-top: 1.5px solid rgba(255, 255, 255, 0.1);
+    width: 25%;
+    margin-top: 50px;
+}
+
+footer .contact .overlay p a {
+    color: #b4b4b4;
+}
+
+footer .contact .overlay p a i {
+    color: #f1c40f;
+    margin-left: 5px;
+}
